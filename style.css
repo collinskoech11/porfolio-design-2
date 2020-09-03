@@ -3,3 +3,26 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+nav ul{
+	display: inline-block;
+	width: 100%;
+}
+nav ul li{
+	float: left;
+	width: 15%;
+}
+.landing-text{
+	width: 100%;
+	height:auto;
+	padding: 40px;
+	z-index: 3;
+	margin-top: 40vh;
+}
+.profile-img{
+	margin-top: -40vh;
+	z-index: -3;
+}
+img{
+	width: 100%;
+	z-index: -3;
+}
